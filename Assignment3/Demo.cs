@@ -97,11 +97,11 @@ public class Demo
         Snake snake;
 
         int rounds = 0;
-        Console.SetCursorPosition(0, 28);
+        Console.SetCursorPosition(0, 28);   
         Console.Write("Rounds: " + rounds);
 
         // Simulation of the animals
-        //Thread.Sleep(3000);
+        Thread.Sleep(2000);
         while (birdCount > 0)
         {
             // Move the birds after each round/every animal has been checked
@@ -127,7 +127,7 @@ public class Demo
                 rounds++;
                 Console.SetCursorPosition(0, 28);
                 Console.Write("Rounds: " + rounds);
-                //Thread.Sleep(3000);
+                Thread.Sleep(1000);
             }
 
             animal = animals.Find(j);
@@ -150,7 +150,7 @@ public class Demo
                         RemoveAnimal(bird);
                         DisplayAnimal(cat, cat.Id);
 
-                        //Thread.Sleep(3000);
+                        Thread.Sleep(1000);
 
                         birds.Swap(bird, birds.Find(0));
                         birds.DeleteFirst();
@@ -193,7 +193,7 @@ public class Demo
                         RemoveAnimal(bird);
                         DisplayAnimal(snake, snake.Id);
 
-                        //Thread.Sleep(3000);
+                        Thread.Sleep(1000);
 
                         birds.Swap(bird, birds.Find(0));
                         birds.DeleteFirst();

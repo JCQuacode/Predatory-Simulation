@@ -1,5 +1,5 @@
 ﻿// Program Description: This program contains a super class: Animal, and its subclasses:
-//    Cat and Snake.
+//    Cat, Snake and Bird.
 
 // Animal:
 // Superclass for other specific animal subclasses to inherit from.
