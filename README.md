@@ -17,12 +17,12 @@ This program simulates the predatory relationship of cats and snake with birds. 
 
 ## Movement and Ranges
 ### Cats (C)
-- Range 8
-- Speed 16
+- Range: 8
+- Speed: 16
 
 ### Snakes (S)
-- Range 3
-- Speed 14
+- Range: 3
+- Speed: 14
 
 ### Birds (B)
 - Move in a random (-10, 10) along the X axis.
