@@ -1,7 +1,8 @@
 # Predatory Simulation of Animals
 
 ## Demo
-![Simulation](https://github.com/JCQuacode/Predatory-Simulation/assets/122890528/97aab46d-eb52-47cb-8171-b17c1b79051d)
+![Simulation](https://github.com/JCQuacode/Predatory-Simulation/assets/122890528/984ceffa-0c62-412a-bbe2-c5eecc54712f)
+
 
 ## Description
 This program simulates the predatory relationship of cats and snake with birds. Here, the birds are the prey.
